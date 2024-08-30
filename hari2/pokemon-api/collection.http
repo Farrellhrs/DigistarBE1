@@ -1,0 +1,26 @@
+### GET Pokemon
+GET http://localhost:3000/pokemon/pikachu
+
+### POST Pokemon
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+  "name": "Charmander",
+  "type": "Fire"
+}
+
+### PUT Pokemon
+PUT http://localhost:3000/pokemon/charmander
+
+### PATCH Pokemon
+PATCH http://localhost:3000/pokemon/charmander
+
+### DELETE Pokemon
+DELETE http://localhost:3000/pokemon/charmander
+
+### HEAD Pokemon
+HEAD http://localhost:3000/pokemon/charmander
+
+### OPTIONS Pokemon
+OPTIONS http://localhost:3000/pokemon/charmander
